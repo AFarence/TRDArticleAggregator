@@ -52,7 +52,7 @@ dnspython==2.3.0
 docker==6.0.1
 docopt==0.6.2
 duckduckgo-search==2.8.6
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+en-core-web-sm==3.5.0
 en-core-web-trf==3.3.0
 entrypoints==0.4
 et-xmlfile==1.1.0
@@ -244,7 +244,7 @@ sns==0.1
 sortedcontainers==2.4.0
 soupsieve==2.3.2.post1
 sourcery==1.2.0
-spacy==3.3.0
+spacy==3.5.2
 spacy-alignments==0.8.5
 spacy-legacy==3.0.12
 spacy-loggers==1.0.2
