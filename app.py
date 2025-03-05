@@ -124,7 +124,7 @@ def parse_article(url):
 
 def run_scraper(market_url):
     with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=False)
+        browser = playwright.chromium.launch(headless=True)
         context = browser.new_context()
         page = context.new_page()
         page.goto(market_url)
