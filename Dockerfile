@@ -1,7 +1,6 @@
-# Use an official lightweight Python image.
 FROM python:3.10-slim
 
-# Install OS-level dependencies required by Playwright browsers.
+# Install OS-level dependencies required by browsers.
 RUN apt-get update && apt-get install -y \
     libnss3 \
     libnspr4 \
@@ -29,7 +28,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --upgrade pip && pip install -r requirements.txt
 
-# Copy the rest of your app’s code.
+# Copy the rest of your app's code.
 COPY . .
 
 # Download Playwright browser binaries.
