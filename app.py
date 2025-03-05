@@ -6,6 +6,14 @@ from urllib.parse import urljoin
 import bleach
 import json
 from playwright.sync_api import sync_playwright
+import os
+import subprocess
+
+# Example path; adjust if needed:
+browser_path = "/home/appuser/.cache/ms-playwright/chromium-1024/chrome-linux/chrome"
+if not os.path.exists(browser_path):
+    subprocess.run(["playwright", "install"], check=True)
+
 
 # Mapping of market names to their URLs.
 market_mapping = {
