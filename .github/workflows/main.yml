@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: '0 13-22 * * *'
 
+permissions:
+  contents: write  # This grants write access to the repository contents.
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
