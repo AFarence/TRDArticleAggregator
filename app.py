@@ -2,7 +2,7 @@ import streamlit as st
 import json
 
 # Load the JSON data.
-@st.cache_data
+# @st.cache_data
 def load_articles():
     try:
         with open("articles_from_rss.json", "r", encoding="utf-8") as f:
