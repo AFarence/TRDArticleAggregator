@@ -2,7 +2,7 @@ name: RSS Scraper
 
 # Run at the 0th minute of every hour between 13 and 22 UTC.
 on:
-  workflow-dispatch:
+  workflow_dispatch:
   schedule:
     - cron: '0 13-22 * * *'
 
