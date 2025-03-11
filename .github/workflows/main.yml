@@ -26,11 +26,10 @@ jobs:
       - name: Run RSS scraper
         run: python rss_parser.py
 
-      # Optionally commit and push updated JSON data if changes were made.
       - name: Commit updated data
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add articles_from_rss.json
           git diff --cached --quiet || git commit -m "Update RSS feed data"
           git push
