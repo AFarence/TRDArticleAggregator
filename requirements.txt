@@ -1,6 +1,4 @@
 feedparser
-json
-os
 requests
 parsedate_to_datetime
 BeautifulSoup
