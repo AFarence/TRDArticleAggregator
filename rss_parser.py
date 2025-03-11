@@ -72,12 +72,18 @@ def parse_article(url):
             href = a.get('href')
             if href:
                 related_links.append(urljoin("https://therealdeal.com", href))
-            a.decompose()
+            # Replace the anchor tag with its inner text so the text remains.
+            a.replace_with(a.get_text())
+
         # Extract plain text with newlines between blocks.
         content = article_tag.get_text(separator="\n", strip=True)
     # Clean any stray HTML.
     clean_text = bleach.clean(content, tags=[], strip=True)
-    
+
+    # Remove specific unwanted text fragments.
+    for unwanted in ["Sign Up for the undefined Newsletter", "Read more"]:
+        clean_text = clean_text.replace(unwanted, "")
+
     return {
         "url": url,
         "title": title,
