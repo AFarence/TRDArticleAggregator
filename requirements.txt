@@ -1,5 +1,4 @@
 feedparser
 requests
-parsedate_to_datetime
-BeautifulSoup
+beautifulsoup4
 streamlit
