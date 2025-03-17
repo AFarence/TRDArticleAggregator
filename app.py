@@ -12,7 +12,7 @@ def load_articles():
 
 articles = load_articles()
 
-st.title("Real Estate Articles")
+st.title("TRD Real Estate Articles")
 
 # Get unique markets.
 markets = sorted({article.get("market", "Unknown") for article in articles})
