@@ -1,4 +1,4 @@
-name: RSS Scraper
+name: TRD Article Scraper
 
 # Run at the 0th minute of every hour between 13 and 22 UTC.
 on:
@@ -26,8 +26,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run RSS scraper
-        run: python rss_parser.py
+      - name: Run article scraper
+        run: python scraper.py
 
       - name: Commit updated data
         run: |
