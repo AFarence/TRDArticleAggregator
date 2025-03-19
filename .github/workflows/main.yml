@@ -33,6 +33,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add articles_from_rss.json
+          git add trd_articles.json
           git diff --cached --quiet || git commit -m "Update RSS feed data"
           git push
