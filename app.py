@@ -5,7 +5,7 @@ import json
 # @st.cache_data
 def load_articles():
     try:
-        with open("articles_from_rss.json", "r", encoding="utf-8") as f:
+        with open("trd_articles.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception:
         return []
@@ -15,7 +15,7 @@ articles = load_articles()
 st.title("TRD Real Estate Articles")
 
 # Get unique markets.
-markets = sorted({article.get("market", "Unknown") for article in articles})
+markets = sorted({article.get("market") or "Unknown" for article in articles})
 selected_market = st.selectbox("Select a Market", ["All"] + markets)
 
 # Filter articles by market if selected.
