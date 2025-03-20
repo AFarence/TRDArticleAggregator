@@ -2,11 +2,13 @@ import streamlit as st
 import json
 
 # Load the JSON data.
-# @st.cache_data
 def load_articles():
     try:
         with open("trd_articles.json", "r", encoding="utf-8") as f:
-            return json.load(f)
+            articles = json.load(f)
+            # Sort articles by pub_date_dt in descending order
+            articles.sort(key=lambda x: x.get("pub_date_dt", ""), reverse=True)
+            return articles
     except Exception:
         return []
 
