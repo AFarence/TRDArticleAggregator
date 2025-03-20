@@ -26,5 +26,8 @@ if selected_market != "All":
 else:
     filtered = articles
 
+if st.button("Refresh Data"):
+    st.rerun()
+
 st.write(f"Found {len(filtered)} articles")
 st.json(filtered)
