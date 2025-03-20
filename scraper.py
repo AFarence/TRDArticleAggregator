@@ -185,14 +185,6 @@ def parse_article(url):
         "related_links": related_links,
     }
 
-# Suppose combined_posts_list is your list of JSON-extracted post data:
-# Each entry in combined_posts_list looks like:
-# {
-#     'title': 'Some JSON title',
-#     'url': 'www.therealdeal.com/new-york/2025/03/18/some-post/',
-#     'date': '2025-03-18T15:47:01'
-# }
-
 final_articles = []
 
 for post in combined_posts_list:
