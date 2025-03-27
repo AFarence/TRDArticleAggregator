@@ -6310,5 +6310,25 @@
             "https://therealdeal.com/texas/dallas/2024/11/12/judge-halts-henry-s-millers-pepper-square-redevelopment/"
         ],
         "market": "Texas"
+    },
+    {
+        "title": "Stack Infrastructure puts another data center in the pipeline",
+        "url": "https://www.therealdeal.com/chicago/2025/03/27/stack-infrastructure-plans-second-data-center-near-ohare/",
+        "date": "2025-03-27T13:44:15",
+        "subhead": "Paid $42M for land near O\u2019Hare airport",
+        "authors": "By TRD Staff",
+        "pub_date": "Mar 27, 2025, 1:44 PM",
+        "pub_date_dt": "2025-03-27T13:44:00",
+        "content": "Another major player is betting big on Chicagoland\u2019s data center market.\nDenver-based Stack Infrastructure has plans for a 36-megawatt, two-story data center in Elk Grove Village, near O\u2019Hare International Airport, CoStar\nreported\n.\nThe 263,000-square-foot facility will rise less than a mile from Stack\u2019s existing CHI01 campus and is the latest addition to one of the most capacity-constrained data center submarkets in the country.\nStack, which was acquired earlier this year by Blue Owl Capital via its purchase of Stack\u2019s parent company IPI Partners, paid $42.1 million this month for nearly 27 acres within the Fortune Business Campus at Busse Road and Howard Street. The price was almost $1.6 million per acre.\nThe site previously housed several industrial and flex buildings. Riverbend Industries, a Chicago firm affiliated with one of Stack\u2019s development partners, was the seller.\nThe development will include a closed-loop water cooling system and be optimized for AI, machine learning and cloud workloads, Stack said.\nDemand for data storage fueled by artificial intelligence and cloud computing has been unrelenting. Industry professionals anticipate data center availability in top U.S. markets could all but disappear this year, and developers are racing to keep pace.\n\nThe O\u2019Hare-area market is one of the most competitive and supply-limited in the country, according to Stack.\nThe trend is reflected in other recent moves in Elk Grove Village, including Austin-based Digital Realty Trust\u2019s $900 million recapitalization of\ntwo data centers\nand a $185 million loan on a third. More recently, Virginia-based data center operator EdgeConneX\npaid $36.6 million\nfor two buildings at 821-891 Busse Road and the adjacent 901-985 Busse Road.\nLocal officials are embracing the shift. Elk Grove Village Mayor Craig Johnson said the project will bring jobs and \u201cresourceful development\u201d to one of the city\u2019s \u201cmost vital business corridors.\u201d\nChicago\u2019s suburbs have become a national hotspot for data center investment, particularly in repurposed industrial zones like the O\u2019Hare corridor. As AI accelerates demand, developers are rushing to convert or replace legacy buildings with hyperscale-ready infrastructure \u2014 including Dallas-based Compass Datacenters\u2019\ndemolition of Sears\u2019 former headquarters\nin Hoffman Estates in the fall to make way for an entirely new campus.\n\u2014 Judah Duke\n",
+        "related_links": [
+            "https://www.costar.com/article/675681587/another-data-center-is-taking-off-near-chicagos-ohare-airport",
+            "https://therealdeal.com/chicago/2023/06/05/gargantuan-deal-financed-with-450m-loan-goes-down-for-two-elk-grove-data-centers/",
+            "https://therealdeal.com/chicago/2024/08/08/edgeconnex-pays-37m-for-elk-grove-village-data-center-site/",
+            "https://therealdeal.com/chicago/2024/09/03/compass-datacenters-begins-demolition-of-former-sears-hq/",
+            "https://therealdeal.com/chicago/2024/08/08/edgeconnex-pays-37m-for-elk-grove-village-data-center-site/",
+            "https://therealdeal.com/chicago/2024/09/03/compass-datacenters-begins-demolition-of-former-sears-hq/",
+            "https://therealdeal.com/chicago/2023/06/05/gargantuan-deal-financed-with-450m-loan-goes-down-for-two-elk-grove-data-centers/"
+        ],
+        "market": "Chicago"
     }
 ]
