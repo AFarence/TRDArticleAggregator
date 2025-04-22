@@ -18938,5 +18938,24 @@
             "https://therealdeal.com/texas/dallas/2024/02/29/northpark-center-in-dallas-lands-650m-refinancing/"
         ],
         "market": "Texas"
+    },
+    {
+        "title": "LA housing construction plunges 57% in 2025",
+        "url": "https://www.therealdeal.com/la/2025/04/22/housing-construction-in-la-falls-57-so-far-in-2025/",
+        "date": "2025-04-22T18:00:00",
+        "subhead": "Analysis finds interest rates, Measure ULA impede new building starts",
+        "authors": "By TRD Staff",
+        "pub_date": "Apr 22, 2025, 6:00 PM",
+        "pub_date_dt": "2025-04-22T18:00:00",
+        "content": "Housing construction in Los Angeles turned sharply negative in the first quarter of 2025.\nOfficials issued only 1,325 housing permits in the quarter \u2014 a 57 percent drop compared to the same period in 2024, according to a\nLos Angeles Times\narticle based on a report by Hilgard Analytics. An analysis by Hilgard found the downturn resulted from multiple challenges facing developers, including high interest rates, economic uncertainty, new tariffs and the city\u2019s controversial Measure ULA, a tax on large property sales.\nThe January wildfires, which caused widespread disruptions, were also cited as a contributing factor, though their impact is likely temporary.\nThe decline was widespread, but most pronounced in the west and northeast San Fernando Valley and south Los Angeles. Notably, this trend predates the wildfires, as housing permits had already fallen 23 percent in 2024 compared to 2023. Hilgard\u2019s data, drawn from the Los Angeles Department of Building &amp; Safety, covers new single-family and multifamily units but excludes accessory dwelling units, or ADUs.\nThe continued drop in housing development could worsen Los Angeles\u2019 already critical housing affordability crisis. Economists stress that building more homes is essential to curbing rising prices and rents.\n\n\u201cIf we aren\u2019t building now, from a long-run perspective, that says higher prices and higher rents at some point in time in the future,\u201d Christopher Thornberg, founding partner of research data firm Beacon Economics, told the Times.\nReduced construction also affects the city\u2019s budget, as development typically increases tax revenues. This comes at a time when the city is grappling with a nearly $1 billion deficit.\nA separate report this month indicated permitting for new multifamily projects in the city fell 18 percent in the first year since Measure ULA was enacted two years ago, resulting in\n1,910 fewer apartments\nin projects of 20 or more units.\nAnd, another report found sales of apartment buildings, office towers and industrial properties across the city of Los Angeles\ndeclined by as much as 50 percent\nsince the tax, but that sales in neighboring cities remained relatively stable.\n",
+        "related_links": [
+            "https://www.latimes.com/california/story/2025-04-22/los-angeles-housing-construction-plunged-to-start-the-year",
+            "https://therealdeal.com/la/2025/04/21/multifamily-permitting-falls-18-percent-in-la/",
+            "https://therealdeal.com/la/2025/04/03/measure-ula-suppresses-sales-and-stymies-new-housing-report/",
+            "https://therealdeal.com/la/2025/04/21/multifamily-permitting-falls-18-percent-in-la/",
+            "https://therealdeal.com/la/2025/03/17/can-mayor-karen-bass-suspend-measure-ula-to-help-la-rebuild/",
+            "https://therealdeal.com/la/2025/04/03/measure-ula-suppresses-sales-and-stymies-new-housing-report/"
+        ],
+        "market": "Los Angeles"
     }
 ]
