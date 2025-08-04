@@ -150,10 +150,11 @@ def parse_article(url):
     pub_date_str = get_pub_date(soup)
     pub_date_dt = None
     if pub_date_str:
-        try:
-            pub_date_dt = datetime.strptime(pub_date_str, '%b %d, %Y, %I:%M %p')
-        except Exception as e:
-            print(f"Date conversion error for {url}: {e}")
+        cleaned = re.sub(r'\s+UTC$', '', pub_date_str)
+    try:
+        pub_date_dt = datetime.strptime(cleaned, '%b %d, %Y, %I:%M %p')
+    except Exception as e:
+        print(f"Date conversion error for {url}: {e}")
     
     article_tag = soup.find('article', id='the-content')
     related_links = []  # To capture any links from the article.
