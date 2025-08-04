@@ -7,7 +7,7 @@ from email.utils import parsedate_to_datetime
 from bs4 import BeautifulSoup
 import bleach
 from urllib.parse import urljoin, urlparse
-from datetime import datetime
+from datetime import datetime, timedelta
 
 url_list = [
     "https://therealdeal.com/new-york/",
@@ -241,6 +241,17 @@ for article in combined_articles:
 
 # Convert the deduplicated dictionary back into a list.
 final_unique_articles = list(unique_articles_dict.values())
+
+# ─── only keep stories from the last 7 days ───
+one_week_ago = datetime.now() - timedelta(days=7)
+
+final_unique_articles = [
+    article
+    for article in final_unique_articles
+    # article['pub_date_dt'] is an ISO string—convert it back to datetime
+    if article.get('pub_date_dt')
+       and datetime.fromisoformat(article['pub_date_dt']) >= one_week_ago
+]
 
 with open(output_file, 'w') as f:
     json.dump(final_unique_articles, f, indent=4)
